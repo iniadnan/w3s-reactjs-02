@@ -1,9 +1,6 @@
 import React from "react";
 
 class CardQuote extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <article className="relative transform hover:scale-105 transition-all duration-200 bg-gray-700 py-6 px-8 rounded-md">
