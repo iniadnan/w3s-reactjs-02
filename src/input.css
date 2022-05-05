@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: rgb(17, 24, 39);
+        overflow-x: hidden;
+    }
+
+    a, button {
+        transiton: 0.175s ease-in;
+    }
+    button:focus, input:focus, textarea:focus {
+        outline: none;
+        border: none;
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 16px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #262626;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: rgb(3, 105, 161);
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgb(3, 105, 161);
+    }
+}
